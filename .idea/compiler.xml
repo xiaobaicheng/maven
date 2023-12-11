@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="moven-prject01" />
+        <module name="spring-boot-web2" />
+        <module name="spring-boot-web1" />
+        <module name="demo" />
+        <module name="tilas-web-management" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dao" target="17" />
+      <module name="spring-boot-mybaties" target="17" />
+      <module name="spring-boot-mybits" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dao" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="spring-boot-mybaties" options="-parameters" />
+      <module name="spring-boot-mybits" options="-parameters" />
+      <module name="spring-boot-web1" options="-parameters" />
+      <module name="spring-boot-web2" options="-parameters" />
+      <module name="tilas-web-management" options="-parameters" />
+    </option>
+  </component>
+</project>
